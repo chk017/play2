@@ -18,29 +18,7 @@
 
 
 	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<version>3.0.0-M5</version>
-				<configuration>
-
-					<!-- <systemPropertyVariables> <username></username>
-					<password></password> 
-						<domain></domain> </systemPropertyVariables> -->
-
-					<!--
-					<argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine> -->
-					<useSystemClassLoader>false</useSystemClassLoader>
-					<suiteXmlFiles>
-						<!--<suiteXmlFile>Runner.xml</suiteXmlFile>-->
-						<!-- <suiteXmlFile>Runner.xml</suiteXmlFile> -->
-						<suiteXmlFile>testng.xml</suiteXmlFile>
-
-					</suiteXmlFiles>
-				</configuration>
-			</plugin>
-		</plugins>
+		
 	</build>
 
 

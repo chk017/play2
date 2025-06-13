@@ -78,6 +78,16 @@
 		<allure.report.name>ckALreport</allure.report.name>-->
 	</properties>
 
+
+<distributionManagement>
+   <repository>
+     <id>github</id>
+     <name>GitHub OWNER Apache Maven Packages</name>
+     <url>https://maven.pkg.github.com/chk017/play2</url>
+   </repository>
+</distributionManagement>
+
+
 	<dependencies>
 
 
